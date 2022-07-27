@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clase 04 - Simulador Interactivo</title>
+    </head>
+    <body>
+        <h1>Conversor de Unidades de Medida para Pastelería</h1>
+
+        <main>
+            <form class="generated-form"  method="GET" action="submit.php"  target="_self">
+                <label for="number">Cantidad a Convertir:</label>
+                <input type="number" id="number" name="number">
+                <label for="cars">Unidad Inicial</label><br>
+                <select id="cars">
+                    <option value="gramos">Gramos</option>
+                    <option value="mililitros">Mililitros</option>
+                </select>
+
+                <label for="cars">Unidad a Convertir</label><br>
+                <select id="cars">
+                    <option value="tazas">Tazas</option>
+                    <option value="ounces">Onzas</option>
+                </select>
+            </form>
+        </main>
+
+        <aside>
+            <h3>Cantidad Final:</h3>
+            <p></p>
+        </aside>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
